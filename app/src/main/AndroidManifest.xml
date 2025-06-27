@@ -13,6 +13,10 @@
         android:theme="@style/Theme.HardTDLapp"
         tools:targetApi="31">
         <activity
+            android:name=".block.BlockerActivity"
+            android:theme="@style/Theme.HardTDLapp"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"
