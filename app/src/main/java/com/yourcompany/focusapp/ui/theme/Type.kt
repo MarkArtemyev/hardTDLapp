@@ -1,4 +1,4 @@
-package com.photovault.hardtdlapp.ui.theme
+package com.yourcompany.focusapp.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle

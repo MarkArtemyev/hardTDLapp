@@ -1,5 +1,18 @@
-# hardTDLapp
+# FocusApp
 
-A simple Android productivity app prototype. You can create tasks with a scheduled time and choose a blocking mode (Full Focus, Focused, or Notification). Tasks can be edited or removed in the list. When a task is scheduled the app uses `AlarmManager` to launch a full-screen `BlockerActivity` at the specified time.
+This project is a simple productivity app skeleton built for Android 8.0 and above. It demonstrates a layered architecture with Room, Hilt and a basic UI.
 
-This project uses Jetpack Compose. To build the application locally, open it in Android Studio and run the **app** configuration. Gradle will attempt to download dependencies on the first build.
+## Structure
+```
+com.yourcompany.focusapp
+├── data
+│   ├── database       // Room database and DAO
+│   ├── model          // Data models
+│   └── repository     // Repositories
+├── di                 // Dependency injection setup
+├── service            // Foreground service for focus sessions
+├── ui                 // Activities, fragments and view models
+└── util               // Utility classes
+```
+
+To build the project open it in Android Studio and run **app**. Gradle will download the required dependencies on first build.

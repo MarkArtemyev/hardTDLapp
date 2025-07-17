@@ -1,4 +1,4 @@
-package com.photovault.hardtdlapp.ui.theme
+package com.yourcompany.focusapp.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

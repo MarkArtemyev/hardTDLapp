@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.photovault.hardtdlapp"
+    namespace = "com.yourcompany.focusapp"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.photovault.hardtdlapp"
+        applicationId = "com.yourcompany.focusapp"
         minSdk = 26
         targetSdk = 35
         versionCode = 1
